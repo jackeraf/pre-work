@@ -1,0 +1,27 @@
+<<html>
+<head>
+	<title>Mars Rover Kata!</title>
+	<script type="text/javascript" src="rover.js"></script>		    
+</head>
+
+	<body>	
+		<H1>Mars rover kata</H1>
+		
+		<p>Rover initial status: X = 0, Y = 0, Facing North.</p><br>
+		<p>Obstacle 1 position: X = 15, Y = 7. Obstacle 2 position: X=6, Y=28.</p><br>
+		<p>Grid Dimensions: 10 x 10</p><br>
+		<p>Enter commands (// f: forward // b: backward // l: left // r: right //)</p><br>	
+		<input id="movement" type="text">
+		<button type="button" onclick="move_rover()">Move the rover</button>
+		<button type="button" onclick="reset()">Reset</button>
+		<br><br>
+		
+		<div id="position">Rover Position: X=0 Y=0 Facing N</div>
+		
+	</body>
+
+</html>
+
+
+
+

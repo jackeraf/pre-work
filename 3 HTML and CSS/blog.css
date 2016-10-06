@@ -1,0 +1,6 @@
+p {
+  background-color: grey;
+}
+.floatedBox {
+    float: left;
+}
